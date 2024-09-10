@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 html, body {
-  overflow-x: hidden; /* Desativa a rolagem horizontal */
+  overflow-x: hidden; /* git test */
 }
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -22,7 +22,7 @@ nav {
     text-align: right;
 }
 #button1 {
-    background-color: #b80127;
+    background-color: #01b826;
     height: 60px;
     line-height: 60px;
     display: inline-block;
@@ -50,7 +50,6 @@ h1 {
   height: 100%;
   object-fit: cover;
 }
-}
 h1 {
 margin-bottom: 10%;
 padding-top: 5%;
@@ -58,23 +57,24 @@ text-align: center;
 font-size: 700%;
 }
 header {
-  box-sizing: border-box;
-  justify-content: space-between;
-    display: flex;
-    background-color: #f1ede5;
-    /* border-bottom: 1px solid #0f0f0f; */
-    font-size: 0.8rem
-    animation: slideIn 2s ease;
+box-sizing: border-box;
+justify-content: space-between;
+display: flex;
+background-color: #f1ede5;
+font-size: 0.8rem;
+animation: slideIn 2s ease;
 }
 #logotipo {
-  position: relative;
-  left: 42%;
+margin-top: 15px;
+margin-left: 30px;
     width: 10%;
     height: 10%;
     align-items: center;
     justify-content: center;
 }
 a {
+    align-items: center;
+    justify-content: center;
     display:inline-block;
     color:#0f0f0f;
     font-family: Ubuntu, sans-serif;
@@ -84,7 +84,6 @@ a {
 }
 .nvg:hover {
     color: #b80127;
-
   }
 
 .nvg::after {
