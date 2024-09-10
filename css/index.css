@@ -22,7 +22,7 @@ nav {
     text-align: right;
 }
 #button1 {
-    background-color: #01b826;
+    background-color: #b80127;
     height: 60px;
     line-height: 60px;
     display: inline-block;
@@ -73,6 +73,10 @@ margin-left: 30px;
     justify-content: center;
 }
 a {
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
     align-items: center;
     justify-content: center;
     display:inline-block;
@@ -85,18 +89,6 @@ a {
 .nvg:hover {
     color: #b80127;
   }
-
-.nvg::after {
-    content: ''; /* Necessário para criar o pseudo-elemento */
-    display: block;
-    position: relative; /* Posiciona o sublinhado relativo ao link */
-    left: 0;
-    bottom: 0; /* Alinha o sublinhado na parte inferior do link */
-    width: 0; /* Começa com o sublinhado escondido */
-    height: 2px; /* Altura do sublinhado */
-    background-color: #efecba; /* Cor do sublinhado */
-    transition: width 0.3s ease; /* Transição suave para a largura */
-}
 #p1h1 {
   display: inline-block;
   margin-right: 66%;
