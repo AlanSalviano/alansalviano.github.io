@@ -5,20 +5,34 @@ html, body {
 }
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: #5d4b33;
+  background-color: #0f0f0f;
+  position: relative;
+}
+section {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  overflow: hidden;
+  background-color: #f1ede5;
+  color: #040402;
 }
 nav {
     text-align: right;
 }
 #button1 {
-    background-color: #5d4b33;
+    background-color: #b80127;
     height: 60px;
     line-height: 60px;
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
 }
-
+footer {
+  background-color: #0f0f0f;
+  color: #fff;
+}
 h1 {
   position: relative;
     font-size: 100px;
@@ -28,19 +42,27 @@ h1 {
     background-color: #efecba;
     transform: scale(1.1);
 }
-.desenvolvedor {
-    font-size: 20%;
-    position: relative;
-    top: 20px;
-    margin: 0px;
-    height:100;
+#facefront {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+}
+h1 {
+margin-bottom: 10%;
+padding-top: 5%;
+text-align: center;
+font-size: 700%;
 }
 header {
   box-sizing: border-box;
   justify-content: space-between;
     display: flex;
-    background-color: #191917;
-    border-bottom: 1px solid #5d4b33;
+    background-color: #f1ede5;
+    /* border-bottom: 1px solid #0f0f0f; */
     font-size: 0.8rem
     animation: slideIn 2s ease;
 }
@@ -48,20 +70,20 @@ header {
   position: relative;
   left: 42%;
     width: 10%;
-    height: auto;
+    height: 10%;
     align-items: center;
     justify-content: center;
 }
 a {
     display:inline-block;
-    color:#fff;
+    color:#0f0f0f;
     font-family: Ubuntu, sans-serif;
     text-decoration: none;
     margin-right: 50px;
     transition: transform 0.3s, color 0.3s;
 }
 .nvg:hover {
-    color: #efecba;
+    color: #b80127;
 
   }
 
@@ -76,16 +98,27 @@ a {
     background-color: #efecba; /* Cor do sublinhado */
     transition: width 0.3s ease; /* Transição suave para a largura */
 }
-
+#p1h1 {
+  display: inline-block;
+  margin-right: 66%;
+  margin-left: 5%;
+}
 .nvg:hover::after {
     width: 40%; /* Expandir o sublinhado para a largura total do link */
 }
-section{
-  display: block;
-  height: 500px;
-  background-color: #191917;
-  color:#efecba;
+
+footer {
+position: fixed;  /* Fixa o footer */
+bottom: 0;        /* Mantém o footer no fundo */
+left: 0;
+width: 100%;      /* O footer ocupará 100% da largura */
+height: 50px;     /* Defina a altura do footer */
+background-color: #0f0f0f;
+color: white;
+text-align: center;
+line-height: 50px;
 }
+
 @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -109,6 +142,3 @@ section{
       transform: translateY(0);  /* Na posição inicial */
     }
   }
-#section2 {
-    background-color: #867d62;
-}
