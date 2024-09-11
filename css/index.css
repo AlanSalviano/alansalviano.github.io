@@ -13,7 +13,7 @@ section {
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 50dvw;
+  height: 49dvw;
   overflow: hidden;
   background-color: #f1ede5;
   color: #040402;
@@ -45,24 +45,49 @@ h1 {
 }
 #facefront {
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 55dvw;
-  height: auto%;
+  top: 55%;
+  transform: translate(-50%, -49%);
+  width: 49dvw;
+  height: auto;
   object-fit: cover;
 }
 h1 {
-margin-bottom: 10%;
-padding-top: 5%;
+margin-bottom: 6%;
+margin-top: 2%;
+text-transform: uppercase;
 text-align: center;
-font-size: 700%;
+font-size: 6dvw;
+}
+h2 {
+color: #b80127;
+display: flex;
+text-align:left;
+font-size: 2dvw;
+margin-right: 60%;
+margin-left: 5%;
+}
+#p1h2 {
+  position: absolute;
+  text-align: justify;
+  font-size: 1.8dvw;
+  margin-right: 67%;
+  margin-left: 5%;
+}
+h3 {
+display: inline-block;
+text-align:left;
+font-size: 2dvw;
+margin-top: 15%;
+margin-right: 60%;
+margin-left: 14%;
+color: #b80127;
 }
 header {
 box-sizing: border-box;
 justify-content: space-between;
 display: flex;
 background-color: #f1ede5;
-font-size: 0.8rem;
+font-size: 0.9rem;
 animation: slideIn 2s ease;
 }
 #logotipo {
@@ -90,11 +115,7 @@ a {
 .nvg:hover {
     color: #b80127;
   }
-#p1h1 {
-  display: inline-block;
-  margin-right: 66%;
-  margin-left: 5%;
-}
+
 .nvg:hover::after {
     width: 40%; /* Expandir o sublinhado para a largura total do link */
 }
@@ -121,7 +142,7 @@ line-height: 50px;
       transform: translateX(0);
     }
   }
-  .fade-in-text {
+  .msgbox {
     opacity: 0;            /* Inicialmente invisível */
     animation: fadeIn 3s ease-in-out forwards; /* Aplica a animação */
   }
@@ -133,4 +154,9 @@ line-height: 50px;
     100% {
       transform: translateY(0);  /* Na posição inicial */
     }
+  }
+.msgbox{
+  position: relative;
+  display: flexbox;
+    margin margin-top: 100px;
   }
