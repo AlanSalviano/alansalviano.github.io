@@ -13,7 +13,7 @@ section {
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 49dvw;
+  height: 43.2dvw;
   overflow: hidden;
   background-color: #f1ede5;
   color: #040402;
@@ -34,10 +34,6 @@ footer {
   background-color: #0f0f0f;
   color: #fff;
 }
-h1 {
-  position: relative;
-    font-size: 100px;
-}
 #button1:hover {
     color: #000000;
     background-color: #efecba;
@@ -47,22 +43,23 @@ h1 {
   position: absolute;
   top: 55%;
   transform: translate(-50%, -49%);
-  width: 49dvw;
+  width: 44dvw;
   height: auto;
   object-fit: cover;
+  z-index: 1;
 }
 h1 {
-margin-bottom: 6%;
+margin-bottom: 11%;
 margin-top: 2%;
 text-transform: uppercase;
 text-align: center;
-font-size: 6dvw;
+font-size: 6.1dvw;
 }
 h2 {
 color: #b80127;
 display: flex;
 text-align:left;
-font-size: 2dvw;
+font-size: 4dvw;
 margin-right: 60%;
 margin-left: 5%;
 }
@@ -77,7 +74,7 @@ h3 {
 display: inline-block;
 text-align:left;
 font-size: 2dvw;
-margin-top: 15%;
+margin-top: 6%;
 margin-right: 60%;
 margin-left: 14%;
 color: #b80127;
