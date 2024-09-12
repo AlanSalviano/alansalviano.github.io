@@ -1,11 +1,12 @@
 .main {
+  background-image: url("../../assets/001.png");
     position: relative;
-    align-items: center;
-    justify-content: center;
-    height: 43.2dvw;
+    height: 91vh;
     overflow: hidden;
-    background-color: #060709;
     color: #dce7f5;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
   }
   /*#060709;*/
 .title {
