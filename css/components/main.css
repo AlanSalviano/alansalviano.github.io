@@ -13,15 +13,15 @@ main {
     font-style: italic;
     text-align: center;
     font-size: 8.1dvw;
+    margin-top: 1%;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
     }
-    .msgbox {
+    .topic {
       margin-top: 5%;
       margin-left: 50px;
       display: inline-block;
       max-width: 40%;
       text-align: left;
-
     }
   h2 {
     font-family: "nunito";
@@ -29,14 +29,6 @@ main {
     text-align:left;
     font-size: 4dvw;
     }
-    #p1h2 {
+    .text {
         font-size: 1.8dvw;
-      }
-#dots {
-        position: absolute;
-        transform: translate(-50%, -63%);
-        width: 100dvw;
-        height: auto;
-        opacity: 100%;
-        z-index: -1;
       }
