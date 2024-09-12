@@ -5,14 +5,14 @@ html, body {
   overflow-x: hidden; /* git test */
 }
 body {
-  background-color: #000000;
+    background: linear-gradient(to left, #161a24, #000);
 }
 .header {
   box-sizing: border-box;
   justify-content: space-between;
   display: flex;
   align-items: center;
-  background-color: #060709;
+  background-color: rgba(000, 0, 0, 0.2);
   font-size: 0.9rem;
   animation: slideIn 2s ease;
   }
@@ -22,6 +22,7 @@ body {
         height: 10%;
         align-items: center;
         justify-content: center;
+        opacity: 100%;
     }
     .nav {
       display: inline-block;
@@ -46,7 +47,7 @@ body {
         margin-right: 50px;
     }
     .action:hover {
-  color: #b80127;
+  color: #fff;
   font-family: 'IM Fell English';
   font-style: italic;
   font-size: 0.9rem;
