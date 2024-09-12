@@ -8,6 +8,7 @@
     padding-right: 20px;
     margin-right: 50px;
     font-family: 'IM Fell English';
+    text-decoration: none;
 }
 .button1:hover {
   color: #000000;
