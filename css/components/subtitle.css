@@ -6,3 +6,10 @@ h2 {
     margin-right: 60%;
     margin-left: 5%;
     }
+    #p1h2 {
+        position: absolute;
+        text-align: justify;
+        font-size: 1.8dvw;
+        margin-right: 67%;
+        margin-left: 5%;
+      }
