@@ -7,13 +7,10 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 50px;
-    font-family: 'IM Fell English';
     text-decoration: none;
 }
 .button1:hover {
   color: #000000;
-  background-color: #b80127;
-  font-style: italic;
-  padding: 0 24.7px;
+  background-color: #1b7abe;
   margin-right: 40;
 }

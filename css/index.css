@@ -39,7 +39,7 @@ body {
         justify-content: center;
         display: inline-block;
         color:#dce7f5;
-        font-family: 'IM Fell English', Georgia;
+        font-weight: bold;
         text-decoration: none;
         transition: transform 0.3s, color 0.3s;
         position: relative;
@@ -47,10 +47,10 @@ body {
         margin-right: 50px;
     }
     .action:hover {
-  color: #fff;
-  font-family: 'IM Fell English';
-  font-style: italic;
+  color: #1b7abe;
+  text-shadow: 2px 2px 8px rgba(95, 207, 255, 0);
   font-size: 0.9rem;
+  font-weight: bold;
     }
     .action::before {
 content: "";

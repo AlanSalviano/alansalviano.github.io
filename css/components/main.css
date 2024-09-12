@@ -10,11 +10,10 @@
   }
   /*#060709;*/
 .title {
-    font-family: "nunito";
     font-style: italic;
     text-align: left;
     margin-left: 100px;
-    font-size: 7rem;
+    font-size: 8rem;
     margin-top: 5%;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
     }
@@ -33,12 +32,10 @@
       text-align: left;
     }
   .subtitle {
-    font-family: "nunito";
     color: #175d8e;
     text-align:left;
-    font-size: 4dvw;
+    font-size: 4rem;
     }
     .text {
-      font-family: 'iM fell english', sans-serif;
-      font-size: 1.8dvw;
+      font-size: 2rem;
       }
