@@ -1,0 +1,16 @@
+#button1 {
+    background-color: #f1ede5;
+    height: 60px;
+    color: #000;
+    line-height: 60px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'IM Fell English';
+}
+#button1:hover {
+  color: #000000;
+  background-color: #b80127;
+  font-style: italic;
+  padding: 0 24.7px;
+}
