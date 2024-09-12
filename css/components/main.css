@@ -1,6 +1,5 @@
 main {
     position: relative;
-    text-align: center;
     align-items: center;
     justify-content: center;
     height: 43.2dvw;
@@ -8,11 +7,36 @@ main {
     background-color: #060709;
     color: #dce7f5;
   }
-  #dots {
-    position: absolute;
-    transform: translate(-50%, -63%);
-    width: 100dvw;
-    height: auto;
-    opacity: 100%;
-    z-index: -1;
-  }
+  /*#060709;*/
+  h1 {
+    font-family: "nunito";
+    font-style: italic;
+    text-align: center;
+    font-size: 8.1dvw;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    }
+    .msgbox {
+      margin-top: 5%;
+      margin-left: 50px;
+      display: inline-block;
+      max-width: 40%;
+      text-align: left;
+
+    }
+  h2 {
+    font-family: "nunito";
+    color: #b80127;
+    text-align:left;
+    font-size: 4dvw;
+    }
+    #p1h2 {
+        font-size: 1.8dvw;
+      }
+#dots {
+        position: absolute;
+        transform: translate(-50%, -63%);
+        width: 100dvw;
+        height: auto;
+        opacity: 100%;
+        z-index: -1;
+      }
