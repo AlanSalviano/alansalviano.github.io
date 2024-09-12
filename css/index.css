@@ -20,8 +20,9 @@ header {
   animation: slideIn 2s ease;
   }
   #button1 {
-    background-color: #b80127;
+    background-color: #f1ede5;
     height: 60px;
+    color: #000;
     line-height: 60px;
     display: inline-block;
     padding-left: 20px;
@@ -30,15 +31,14 @@ header {
 }
 #button1:hover {
   color: #000000;
-  background-color: #f1ede5;
-  transform: scale(1.1);
+  background-color: #b80127;
   font-style: italic;
+  padding: 0 24.7px;
 }
   #logotipo {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 10px;
     margin-left: 30px;
-        width: 10%;
+        width: 100px;
         height: 10%;
         align-items: center;
         justify-content: center;
@@ -85,7 +85,7 @@ header {
   .nvg {
     position: relative;
     text-decoration: none;
-    padding: 10px;
+padding-top: 10px;
   }
   .nvg::before {
     content: "";
