@@ -1,4 +1,4 @@
-main {
+.main {
     position: relative;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,7 @@ main {
     color: #dce7f5;
   }
   /*#060709;*/
-  h1 {
+.title {
     font-family: "nunito";
     font-style: italic;
     text-align: center;
@@ -23,12 +23,13 @@ main {
       max-width: 40%;
       text-align: left;
     }
-  h2 {
+  .subtitle {
     font-family: "nunito";
     color: #b80127;
     text-align:left;
     font-size: 4dvw;
     }
     .text {
-        font-size: 1.8dvw;
+      font-family: 'iM fell english', sans-serif;
+      font-size: 1.8dvw;
       }
