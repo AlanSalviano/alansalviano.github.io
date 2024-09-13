@@ -1,0 +1,44 @@
+
+.section-box .skills .subtitle {
+
+}
+.subtitle.-second {
+    display: inline-block;
+    text-align: center;
+margin-top: 50px;
+}
+.icon-title-bar .icon {
+    height: 10dvw;
+    width: auto;
+    display: block;
+}
+.section-box {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.centerbox {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    display: inline-block;
+    background-color: brown;
+    width: 600px;
+    height: 450px;
+    display: flex;
+}
+.icon-title-bar{
+justify-content: left;
+    flex-direction: column;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+}
+.icon-title-bar .icon {
+    height: 50px;
+    background-color: lightblue;
+    margin: 20px;
+}

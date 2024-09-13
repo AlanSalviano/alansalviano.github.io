@@ -8,7 +8,10 @@
     color: #ffffff;
     background-size: contain;
     background-position: right;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(to left, rgb(0, 0, 0), #161a24);
+    border-image-slice: 1;
+
   }
   /*#060709;*/
   .main .title {
@@ -23,7 +26,6 @@
 
       margin-top: 2%;
       display: block;
-      margin-left: px;
       height: 5dvw;
       width: auto;
     }
@@ -35,9 +37,7 @@
       text-align: left;
     }
     .main .topic .subtitle {
-    color: #175d8e;
     text-align:left;
-    font-size: 4rem;
     }
     .main .topic .text {
       font-size: 2rem;
