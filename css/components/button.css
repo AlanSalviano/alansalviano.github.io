@@ -1,5 +1,5 @@
 .button1 {
-    background-color: #f1ede5;
+    background-color: #E2DADB;
     height: 60px;
     color: #000;
     line-height: 60px;
@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 .button1:hover {
-  color: #000000;
-  background-color: #1b7abe;
+  color: #fff;
+  background-color: #175D8E;
   margin-right: 40;
 }

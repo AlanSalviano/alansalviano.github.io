@@ -23,12 +23,10 @@ body {
         align-items: center;
         justify-content: center;
         opacity: 100%;
+        transition: 0.5s ease;
     }
-    .nav {
-      display: inline-block;
-      margin: 0;
-      text-align: center;
-      padding: 0;
+    .logotipe:hover {
+      content: url('../assets/logopequeno2.png');
     }
     .action {
         height: 50px;
@@ -38,17 +36,17 @@ body {
         align-items: center;
         justify-content: center;
         display: inline-block;
-        color:#dce7f5;
+        color:#FFFFFF;
         font-weight: bold;
         text-decoration: none;
         transition: transform 0.3s, color 0.3s;
         position: relative;
         padding-top: 10px;
         margin-right: 50px;
+
     }
     .action:hover {
-  color: #1b7abe;
-  text-shadow: 2px 2px 8px rgba(95, 207, 255, 0);
+  color: #175D8E;
   font-size: 0.9rem;
   font-weight: bold;
     }
