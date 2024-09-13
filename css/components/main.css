@@ -1,15 +1,17 @@
 .main {
+  display: flex;
+  flex-direction: column;
   background-image: url("../../assets/001.png");
     position: relative;
     height: 91vh;
     overflow: hidden;
     color: #ffffff;
     background-size: contain;
-    background-repeat: no-repeat;
     background-position: right;
+    border-bottom: 10px solid #ffffff;
   }
   /*#060709;*/
-.title {
+  .main .title {
     font-style: italic;
     text-align: left;
     margin-left: 100px;
@@ -17,25 +19,26 @@
     margin-top: 5%;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
     }
-    .tools {
+    .main .tools {
+
       margin-top: 2%;
       display: block;
-      margin-left: 100px;
+      margin-left: px;
       height: 5dvw;
       width: auto;
     }
-    .topic {
+    .main .topic {
       margin-top: 1%;
       margin-left: 100px;
       display: inline-block;
       max-width: 40%;
       text-align: left;
     }
-  .subtitle {
+    .main .topic .subtitle {
     color: #175d8e;
     text-align:left;
     font-size: 4rem;
     }
-    .text {
+    .main .topic .text {
       font-size: 2rem;
       }
