@@ -1,0 +1,67 @@
+.header {
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: rgba(000, 0, 0, 0.2);
+    font-size: 0.9rem;
+    }
+    .header .logotipe {
+      margin-left: 30px;
+          width: 100px;
+          height: 10%;
+          opacity: 100%;
+          transition: 0.5s ease;
+      }
+      .header .logotipe:hover {
+        content: url('../assets/logopequeno2.png');
+      }
+      .header .action {
+          height: 50px;
+          line-height: 50px;
+          padding-left: 20px;
+          padding-right: 20px;
+          align-items: center;
+          justify-content: center;
+          display: inline-block;
+          color:#FFFFFF;
+  
+          text-decoration: none;
+          transition: transform 0.3s, color 0.3s;
+          position: relative;
+          padding-top: 10px;
+          margin-right: 50px;
+      }
+      .header .action:hover {
+    color: #175D8E;
+    font-size: 0.9rem;
+    font-weight: bold;
+      }
+      .header .action::before {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        background-image: url('../../assets/arabesco.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: width 0.3s ease, height 0.3s ease;
+      }
+      .header .action:hover::before {
+      width: 50px;
+      height: 50px;
+      }
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-100%);  /* Fora da tela */
+    }
+    100% {
+      transform: translateY(0);  /* Na posição inicial */
+    }
+  }
+  .background-section {
+    text-align: center;
+  }
