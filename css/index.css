@@ -37,13 +37,12 @@ body {
         justify-content: center;
         display: inline-block;
         color:#FFFFFF;
-        font-weight: bold;
+
         text-decoration: none;
         transition: transform 0.3s, color 0.3s;
         position: relative;
         padding-top: 10px;
         margin-right: 50px;
-
     }
     .action:hover {
   color: #175D8E;
