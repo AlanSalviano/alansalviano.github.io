@@ -1,0 +1,12 @@
+.title.-abouttitle {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.subtitle.-abouttext {
+    color: #fff;
+    font-size: 1.1rem;
+}
+.section.-about {
+    margin: 0 40px 40px 40px;
+}

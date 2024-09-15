@@ -32,7 +32,4 @@ line-height: 50px;
   flex-direction: column;
     position: relative;
     background-position: right;
-    border-bottom: 4px solid transparent;
-    border-image: linear-gradient(to left, rgb(0, 0, 0), #161a24);
-    border-image-slice: 1;
   }
