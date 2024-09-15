@@ -26,7 +26,6 @@ line-height: 50px;
   display: flex;
   flex-direction: column;
     position: relative;
-    height: 91vh;
     background-position: right;
     border-bottom: 4px solid transparent;
     border-image: linear-gradient(to left, rgb(0, 0, 0), #161a24);

@@ -1,7 +1,6 @@
 .section.-first {
-    padding: 40px 0 10px 0;
+    padding: 20px 0 10px 0;
     align-items: center;
-    height: 680px;
     border-bottom: 4px solid transparent;
     border-image: linear-gradient(to left, #161a24, rgb(0, 0, 0), #161a24);
     border-image-slice: 1;
@@ -10,7 +9,7 @@
 .title.-skill {
     color: #fff;
     font-size: 6rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .skill-align {
     justify-content:space-evenly;
@@ -25,6 +24,7 @@
 }
 .text.-bar{
     color: rgb(255, 255, 255);
+    font-size: 2rem;
 }
 .icon {
     height: 150px;
@@ -40,8 +40,8 @@
     align-items: center;
     border-radius: 30px;
     width: 85dvw;
-    height: 900px;
-    margin-bottom: 40px;
+margin-bottom: 50px;
+padding-bottom: 45px;
     display: flex;
     flex-wrap: wrap;
     background: linear-gradient(to left, rgba(22, 26, 36, 0.5), rgba(33, 39, 53, 0.5));
