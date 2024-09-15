@@ -1,17 +1,22 @@
 .main {
   display: flex;
   flex-direction: column;
-  background-image: url("../../assets/001.png");
-    position: relative;
     height: 91vh;
-    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
     color: #ffffff;
     background-size: contain;
     background-position: right;
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(to left, rgb(0, 0, 0), #161a24);
     border-image-slice: 1;
-
+  }
+  .main .photo {
+height: 45dvw;
+position: absolute;
+z-index: -10;
+right: 0;
+bottom: 0;
   }
   /*#060709;*/
 .title {
@@ -19,6 +24,7 @@
     font-style: italic;
     text-align: left;
     font-size: 8rem;
+    display: block;
 
     }
     .main .title {
@@ -29,7 +35,7 @@
     .main .tools {
       margin-top: 2%;
       display: block;
-      height: 5dvw;
+      height: 70px;
       width: auto;
     }
     .main .topic {
