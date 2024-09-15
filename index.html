@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/components/main.css">
+    <link rel="stylesheet" href="css/components/progress.css">
     <link rel="stylesheet" href="css/components/skills.css">
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/header.css">
@@ -33,20 +34,37 @@
             <!-- <img id= "dots" src="assets/dots.png"></img> -->
         </div>
     </section>
-    <section class="section-box">
-        <div class="subtitle -second"><h3 class="subtitle">Skills</h3></div>
-        <div class="centerbox">
-            <div class="icon-title-bar">
-                <img class="icon" src="assets/html.png">HTML</img>
-                <img class="icon" src="assets/html.png">HTML</img>
-                <img class="icon" src="assets/html.png">HTML</img>
-                <img class="icon" src="assets/html.png">HTML</img>
-                <img class="icon" src="assets/html.png">HTML</img>
-                <img class="icon" src="assets/html.png">HTML</img>
-                <img class="icon" src="assets/html.png">HTML</img>
-                <img class="icon" src="assets/html.png">HTML</img>
-            </div>
-         </div>
+    <section class="section -first">
+        <div class="skills"><h3 class="title -skill">Skills</h3></div>
+        <div class="container">
+                <div class="skill-align">
+                    <article class="skills-status -html">
+                        <img class="icon" src="assets/html.png"></img>
+                          <div class="right">
+                            <h3 class="text -bar">HTML</h3>
+                            <progress class="progress-bar" max="100" value="60">30%</progress>
+                        </article>
+                    <article class="skills-status -css">
+                            <img class="icon" src="assets/css.png"></img>
+                              <div class="right">
+                                <h3 class="text -bar">CSS</h3>
+                                <progress class="progress-bar" max="100" value="40">30%</progress>
+                        </article>
+                    <article class="skills-status -js">
+                            <img class="icon" src="assets/js.png"></img>
+                              <div class="right">
+                                <h3 class="text -bar">JAVASCRIPT</h3>
+                                <progress class="progress-bar" max="100" value="20">30%</progress>
+                        </article>
+                    <article class="skills-status -react">
+                            <img class="icon" src="assets/react.png"></img>
+                              <div class="right">
+                                <h3 class="text -bar">REACT</h3>
+                                <progress class="progress-bar" max="100" value="10">30%</progress>
+                        </article>
+                </div>
+        </div>
     </section>
+ 
 </body>
 </html>

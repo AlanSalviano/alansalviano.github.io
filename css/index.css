@@ -20,17 +20,13 @@ line-height: 50px;
 
 .subtitle{
   font-size: 4rem;
-  color: #175d8e;
+  color: #ff3f40;
 }
-.section-box {
-  position: relative;
+.section {
   display: flex;
   flex-direction: column;
     position: relative;
     height: 91vh;
-    overflow: hidden;
-    color: #ffffff;
-    background-size: contain;
     background-position: right;
     border-bottom: 4px solid transparent;
     border-image: linear-gradient(to left, rgb(0, 0, 0), #161a24);

@@ -1,44 +1,49 @@
-
-.section-box .skills .subtitle {
-
-}
-.subtitle.-second {
-    display: inline-block;
-    text-align: center;
-margin-top: 50px;
-}
-.icon-title-bar .icon {
-    height: 10dvw;
-    width: auto;
-    display: block;
-}
-.section-box {
-    justify-items: center;
-    justify-content: center;
+.section.-first {
+    padding: 40px 0 10px 0;
     align-items: center;
-    background-color: blue;
+    height: 680px;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(to left, #161a24, rgb(0, 0, 0), #161a24);
+    border-image-slice: 1;
+    background-color: black;
 }
-.centerbox {
+.title.-skill {
+    color: #fff;
+    font-size: 6rem;
+    margin-bottom: 40px;
+}
+.skill-align {
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.skills-status{
+    display: flex;
+    margin: 50px 0 0 0px;
     flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-    display: inline-block;
-    background-color: brown;
-    width: 600px;
-    height: 450px;
-    display: flex;
 }
-.icon-title-bar{
-justify-content: left;
+.text.-bar{
+    color: rgb(255, 255, 255);
+}
+.icon {
+    height: 150px;
+    margin-left: 0px;
+}
+.skills-status .right {
+    justify-content: space-around;
+    padding: 20px 0;
+    display: flex;
     flex-direction: column;
-    background-color: bisque;
-    display: flex;
-    flex-direction: row;
 }
-.icon-title-bar .icon {
-    height: 50px;
-    background-color: lightblue;
-    margin: 20px;
+.container {
+    align-items: center;
+    border-radius: 30px;
+    width: 85dvw;
+    height: 900px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to left, rgba(22, 26, 36, 0.5), rgba(33, 39, 53, 0.5));
+    box-shadow: 0 0 5px 5px  rgba(62, 124, 183, 0.5);
 }
