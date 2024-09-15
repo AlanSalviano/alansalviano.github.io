@@ -37,6 +37,7 @@
     flex-direction: column;
 }
 .container {
+    opacity: 70%;
     align-items: center;
     border-radius: 30px;
     width: 85dvw;
@@ -46,4 +47,7 @@ padding-bottom: 45px;
     flex-wrap: wrap;
     background: linear-gradient(to left, rgba(22, 26, 36, 0.5), rgba(33, 39, 53, 0.5));
     box-shadow: 0 0 5px 5px  rgba(62, 124, 183, 0.5);
+}
+.container:hover {
+    opacity: 100%;
 }
