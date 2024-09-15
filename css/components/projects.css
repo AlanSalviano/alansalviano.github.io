@@ -10,19 +10,24 @@
 .title.-project-text{
     color: #ffca3e;
 }
-.sites {
-    opacity: 50%;
-    max-width: 25%;
+.wrapper-projects .sites {
+    opacity: 60%;
     border: 5px solid white;
     box-shadow: 0 0 5px 5px  rgba(62, 124, 183, 0.5);
 }
 .wrapper-projects {
+    flex-wrap: wrap;
     margin-top: 40px;
     display: inline-flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+    flex-direction: row;
 }
 .sites:hover {
     opacity: 100%;
+}
+.sites {
+    margin: 20px;
+    width: 25dvw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
 }
