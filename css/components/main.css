@@ -12,22 +12,16 @@
     border-image-slice: 1;
   }
   .main .photo {
-height: 45dvw;
+    height: 45dvw;
 position: absolute;
 z-index: -10;
 right: 0;
 bottom: 0;
   }
   /*#060709;*/
-.title {
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
-    font-style: italic;
-    text-align: left;
-    font-size: 8rem;
-    display: block;
-
-    }
-    .main .title {
+.title.-main  {
+     font-size: 8rem;
+      text-align: left;
       margin-left: 100px;
       margin-top: 5%;
     }
@@ -35,7 +29,7 @@ bottom: 0;
     .main .tools {
       margin-top: 2%;
       display: block;
-      height: 70px;
+      max-height: 70px;
       width: auto;
     }
     .main .topic {

@@ -1,0 +1,28 @@
+.title.-projects {
+    align-items: center;
+
+}
+.section.-projects {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.title.-project-text{
+    color: #ffca3e;
+}
+.sites {
+    opacity: 50%;
+    max-width: 25%;
+    border: 5px solid white;
+    box-shadow: 0 0 5px 5px  rgba(62, 124, 183, 0.5);
+}
+.wrapper-projects {
+    margin-top: 40px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.sites:hover {
+    opacity: 100%;
+}

@@ -1,10 +1,6 @@
-.section.-first {
+.section.-skills {
     padding: 20px 0 10px 0;
     align-items: center;
-    border-bottom: 4px solid transparent;
-    border-image: linear-gradient(to left, #161a24, rgb(0, 0, 0), #161a24);
-    border-image-slice: 1;
-    background-color: black;
 }
 .title.-skill {
     color: #fff;
